@@ -1,0 +1,61 @@
+#layer_1{
+    fill: #fff;
+    height: 60px;
+    width: 396px;
+}
+.left-nav-item{
+    text-align: right;
+}
+.center-text{
+    text-align: center;
+}
+.navigation{
+    padding: 20px 10px 15px 10px;
+}
+.logo{
+    transform: translate(-50%, 0);
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 50%;
+    padding: 10px 15px 15px 10px;
+}
+.header-bottom{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    z-index: 1;
+}
+
+
+.nav-bar .row {
+    border-bottom: solid 1px #f4f5f6;
+    padding-bottom: 7px
+}
+.nav-bar div{
+    font-weight: 500;
+    margin-top: 6px;
+    border-left: solid 1px  #d9d9d9; 
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Roboto Condensed",sans-serif;
+    color:black;
+
+}
+.nav-bar a:hover{
+    color: #f72210;
+}
+.nedible {
+    background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/NDELIBLE.black3.gif") 
+    15px 5px/89px no-repeat;
+ display: block;
+ height: 32px;
+
+
+}
