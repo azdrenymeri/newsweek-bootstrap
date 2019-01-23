@@ -204,3 +204,15 @@ li{
 .menu{
     margin-bottom: 0;
 }
+.col-md-6 date {
+    
+    font: 16px/34px "Roboto Condensed",sans-serif;
+    color: #fff;
+}
+.jc-fe{
+    float:right;
+}
+.lk-3 {
+    background-color: #fff;
+    color: #f72210;
+}
