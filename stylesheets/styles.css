@@ -103,7 +103,7 @@ li{
     padding-right: 10px;
     float: left;
     width: 29%;
-    margin-top: 30px;
+    margin-top: 15px;
     
 }
 .big-picture{
@@ -119,7 +119,34 @@ li{
     padding-bottom: 14px;
     border-top: 1px solid #ddd;
 }
+#opinions-ul{
+    border-top: none;
+}
+.flex-xs div a img{
+    height: 63px;
+    width: 63px;
 
+}
+.n-title .icon-n {
+    -webkit-flex: none;
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+.category{
+    position: unset !important;
+}
+.body-123{
+    float:left;
+    margin-top:20px;
+}
+.imagez a picture img{
+    width: 100%;
+    height:auto;
+}
 .block-title {
     color: rgba(3,3,3,.4);
     font: bold 16px/16px "Roboto Condensed",sans-serif;
