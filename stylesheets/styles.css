@@ -84,6 +84,19 @@ li{
 
 
 }
+
+.right-nav-btns{
+    text-align: right;
+    
+}
+.right-nav-btns a {
+    text-decoration: none;
+}
+
+.right-nav-btns:first-child{
+    color: white;
+}
+
 /* Main */
 #main {
     margin-top: 3%;
@@ -212,7 +225,21 @@ li{
 .jc-fe{
     float:right;
 }
+.lk-2{
+     font-weight: 600;
+     text-transform: uppercase;
+}
+.lk-2:hover{
+    color: #fff;
+   
+}
 .lk-3 {
     background-color: #fff;
     color: #f72210;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.lk-3:hover{
+    color: #f72210;
+   
 }
