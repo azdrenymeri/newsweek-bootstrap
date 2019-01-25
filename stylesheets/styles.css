@@ -28,6 +28,8 @@ li{
     display: inline;
 }
 
+/* Navbar */
+
 .left-nav-item{
     text-align: right;
 }
@@ -52,12 +54,27 @@ li{
     border-bottom-style: solid;
     z-index: 1;
 }
-
+.nav-bar {
+    position: relative;
+}
+.nav-bar::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 22px;
+    background-color: #f72210;
+    border-left: 12px solid #fff;
+    border-top: 13px solid #f72210;
+}
 
 .nav-bar .row {
     border-bottom: solid 1px #f4f5f6;
     padding-bottom: 7px
 }
+.nav-bar .el
+
 .nav-bar div{
     font-weight: 500;
     margin-top: 6px;
@@ -73,22 +90,32 @@ li{
     color:black;
 
 }
+
 .nav-bar a:hover{
     color: #f72210;
 }
+
 .nedible {
     background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/NDELIBLE.black3.gif") 
     15px 5px/89px no-repeat;
- display: block;
- height: 32px;
-
-
+    display: block;
+    height: 32px;
+}
+.nav-mag-glass {
+    background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-search-glass.svg) center/contain no-repeat #fff;
+    width: 20px;
+    height: 20px;
+    clip: auto;
+    font-size: 0;
+    position: absolute;
+    top: 10px;
+    right: 16px;
 }
 
 .right-nav-btns{
     text-align: right;
-    
 }
+
 .right-nav-btns a {
     text-decoration: none;
 }
@@ -97,15 +124,16 @@ li{
     color: white;
 }
 
+
 /* Main */
 #main {
     margin-top: 3%;
 }
 
-
 .big-picture{
     width: 100%;
 }
+
 #block-nw-home-featured-more article .image {
     float: left;
     width: 135px;
@@ -244,4 +272,16 @@ li{
 .lk-3:hover{
     color: #f72210;
    
+}
+
+/* Magazine Part */
+
+.icon-n{
+    -webkit-flex: none;
+    flex: none;
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
 }
