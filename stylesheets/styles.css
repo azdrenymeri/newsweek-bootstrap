@@ -215,8 +215,6 @@ article .category {
     z-index: 1;
 }
 .related li {
-    /* border-top: 1px solid #d9d9d9; */
-    /* border-bottom: 1px solid #d9d9d9; */
     padding: 10px 0;
     list-style: none outside none;
 }
@@ -239,9 +237,6 @@ article .category {
     width:76%;
     font: bold 17px/21px "Roboto Condensed",sans-serif;
 }
-/* .headshot{
-    float: left;
-} */
 .page-footer .brand svg {
     display: block;
     width: 236px;
@@ -405,7 +400,7 @@ picture{
     width: 100%;
     height: auto;
 }
-.side-ul {
+mapping-tabletside-ul {
     padding: 0;
      margin-top: 0;  
      margin-bottom: 0;  
@@ -414,5 +409,33 @@ picture{
      border-top: none;
      padding-top: 0;
 }
-
-/* Milos Part */
+/* Featured Slideshows */
+.slide {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.slide-shows > article {
+    display: inline-block;
+}
+.slide-shows{
+    margin-top: 16px;
+    text-align: center;
+}
+.count-link { 
+width: 70px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
+}
+.image {
+    position: relative;
+}
