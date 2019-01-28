@@ -11,9 +11,9 @@ ul{
     padding:0;
     margin-top:17px;
     margin-bottom:20px;
-    /* border-bottom: 1px solid #d9d9d9; */
+    
     padding-bottom: 10px;
-    /* border-top: 1px solid #d9d9d9; */
+    
     padding-top: 15px;
 }
 .byline{
@@ -56,7 +56,6 @@ li{
 }
 .nav-bar {
     position: relative;
-    /* padding: 10px; */
 }
 .nav-bar::before{
     position: absolute;
@@ -276,10 +275,10 @@ article .category {
     width: 278px;
     height: 185px;
 }
-.summary{
+.summaryz{
     width: 278px;
 }
-.summary a{
+.summaryz a{
     font-size: 20px;
 }
 article{
@@ -367,7 +366,6 @@ article{
 }
 .mag-category {
     display: block;
-    /* font-size: 15px; */
     font: bold 16px/33px "Roboto Condensed",sans-serif;
     color: #f72210;
     text-transform: uppercase;
@@ -418,9 +416,13 @@ picture{
     text-align: left;
     
 }
-#img-size{
-    width: 100%;
-    height: auto;
+.featured-photo{
+    width: 328px;
+    height: 219px;
+}
+.img-size{
+    width: 100% !important;
+    height: auto !important;
 }
 .side-ul li {
     border-bottom: 1px solid #d9d9d9;   
@@ -432,8 +434,7 @@ picture{
 .mapping-tablet .side-ul {
     padding: 0;
      margin-top: 0;  
-     margin-bottom: 0;  
-     /* border-bottom: 1px solid #d9d9d9;   */
+     margin-bottom: 0;
      padding-bottom: 0;  
      border-top: none;
      padding-top: 0;
