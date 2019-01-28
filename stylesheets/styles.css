@@ -254,6 +254,24 @@ article .category {
     content: "\f202";
 }
 
+.latest-pic{
+    width: 130px !important;
+    height: auto !important;
+}
+.pic-resize{
+    width: 278px;
+    height: 185px;
+}
+.summary{
+    width: 278px;
+}
+.summary a{
+    font-size: 20px;
+}
+article{
+    margin-top:20px;
+}
+
 .infoz {
     width: 60%;
     padding-top: 20px;
