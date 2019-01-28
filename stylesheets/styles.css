@@ -75,11 +75,29 @@ li{
     padding-bottom: 7px
 }
 
-
+.in-the-mag {
+    margin-top:35px !important;
+}
 .nav-bar div{
     font-weight: 500;
     margin-top: 6px;
+    
+}
+.block-titlez{
+    border-top: 1px solid #d9d9d9;
+    color: #f72210;
+    padding-top: 25px;
+    font-size: 25px;
+    line-height: 22px;
+    text-transform: none;
+    font: bold "Roboto Condensed",sans-serif;
+}
+.nav-el div{
     border-left: solid 1px  #d9d9d9; 
+}
+
+#block-ibtg-footer-ibtg-footer{
+    width: 95%;
 }
 
 .nav-bar a{
@@ -265,6 +283,9 @@ article .category {
 }
 article{
     margin-top:20px;
+}
+.row{
+    margin-left:0px !important;
 }
 
 .infoz {
