@@ -17,8 +17,6 @@ ul{
     padding-top: 15px;
 }
 .byline{
-    font-size: 14px;
-    line-height: 21px;
     color: #555;
     text-transform: uppercase;
     margin-top: 4px;
@@ -26,6 +24,9 @@ ul{
 }
 li{
     display: inline;
+}
+.main-menu-links{
+    text-align: center;
 }
 
 /* Navbar */
@@ -38,6 +39,7 @@ li{
 }
 .navigation{
     padding: 20px 10px 15px 10px;
+    background-color:#f72210;
 }
 .logo{
     transform: translate(-50%, 0);
@@ -76,6 +78,8 @@ li{
 
 .in-the-mag {
     margin-top:35px !important;
+    margin-bottom: 16px;
+    
 }
 .nav-bar div{
     font-weight: 500;
@@ -86,10 +90,9 @@ li{
     border-top: 1px solid #d9d9d9;
     color: #f72210;
     padding-top: 25px;
-    font-size: 25px;
-    line-height: 22px;
+    
     text-transform: none;
-    font: bold "Roboto Condensed",sans-serif;
+    font: bold 22px/25px "Roboto Condensed",sans-serif;
 }
 .nav-el div{
     border-left: solid 1px  #d9d9d9; 
@@ -108,6 +111,7 @@ li{
     color:black;
 
 }
+
 
 .nav-bar a:hover{
     color: #f72210;
@@ -178,7 +182,7 @@ article .category {
 #block-nw-home-featured-more article {
     padding-top: 14px;
     padding-bottom: 14px;
-    border-top: 1px solid #ddd;
+    border-top: none;
 }
 #opinions-ul{
     border-top: none;
@@ -221,6 +225,18 @@ article .category {
     text-transform: uppercase;
     padding-bottom: 11px;
 }
+.footer-block ul{
+    display:inline-block !important;
+}
+.footer-block div{
+    display:inline-block !important;
+}
+.social-icons{
+    float:right;
+}
+.wrap{
+    position:relative;
+}
 .category {
     display: block;
     font: bold 17px/16px "Roboto Condensed",sans-serif;
@@ -229,6 +245,7 @@ article .category {
     padding: 8px 15px 9px;
     background-color: rgba(255,255,255,.9);
     position: absolute;
+    bottom:0;
     z-index: 1;
 }
 .related li {
@@ -236,8 +253,6 @@ article .category {
     list-style: none outside none;
 }
 .related li a{
-    font-size: 17px;
-    line-height: 20px;
     font: bold 16px/20px "Roboto Condensed",sans-serif;
     color: #000;
 }
@@ -275,6 +290,12 @@ article .category {
     width: 278px;
     height: 185px;
 }
+.summary{
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
 .summaryz{
     width: 278px;
 }
@@ -343,10 +364,7 @@ article{
 
 /* Magazine Part */
 
-.in-the-mag{
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
+
 
 .icon-n{
     -webkit-flex: none;
@@ -395,7 +413,7 @@ article{
 
 /* In the Magazine */
 .mag-cat{
-    padding: 0 7px;
+    
     background-color: #f72210;
     color: #fff;
       padding: 8px;
@@ -435,9 +453,8 @@ picture{
     padding: 0;
      margin-top: 0;  
      margin-bottom: 0;
-     padding-bottom: 0;  
      border-top: none;
-     padding-top: 0;
+     
 }
 /* Featured Slideshows */
 .slide {
