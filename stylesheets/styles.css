@@ -61,7 +61,7 @@ li{
 }
 .nav-bar::before{
     position: absolute;
-    top: 0;
+    top:-3px;
     right: 0;
     content: "";
     display: block;
@@ -123,6 +123,10 @@ li{
     display: block;
     height: 32px;
 }
+
+.nav-search {
+    position: relative;
+}
 .nav-mag-glass {
     background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-search-glass.svg) center/contain no-repeat #fff;
     width: 20px;
@@ -131,8 +135,9 @@ li{
     font-size: 0;
     position: absolute;
     top: 5px;
-    right: 80px;
+    left: 70px;
 }
+
 
 .right-nav-btns{
     text-align: right;
